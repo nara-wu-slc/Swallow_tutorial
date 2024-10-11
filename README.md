@@ -5,8 +5,8 @@
 cd /path/to/dir
 
 # 本チュートリアルのリポジトリをクローンして移動
-git clone https://github.com/nara-wu-slc/llm-jp_tutorial.git
-cd llm-jp_tutorial
+git clone https://github.com/nara-wu-slc/Swallow_tutorial.git
+cd Swallow_tutorial
 
 # 本チュートリアル用のPython仮想環境を /path/to/dir/llm-jp_tutorial/.venv に作成
 python3 -m venv .venv
