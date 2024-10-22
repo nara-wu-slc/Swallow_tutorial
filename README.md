@@ -33,7 +33,7 @@ source /slc/share/dot.zshrc.slc
 # プログラムの立ち上げが終わると
 # input>
 # というプロンプトが出てくるので文字列を入力。空行のままEnterすると入力終了（入力が空であればプログラムを閉じる）
-env CUDA_VISIBLE_DEVICES=0 ./sample_interactive.py -m Llama-3.1-Swallow-8B-Instruct-v0.1
+env CUDA_VISIBLE_DEVICES=0 python3 ./sample_interactive.py -m Llama-3.1-Swallow-8B-Instruct-v0.1
 ```
 
 実行例
